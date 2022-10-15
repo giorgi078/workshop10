@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.checknumber{
+    width: 400px;
+    margin: 50px auto;
+}
+
+.checknumber input, .checknumber .check{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+}
+.checknumber .check{
+    text-align: center;
+    background-color: rgb(148, 141, 132);
+}
+.checknumber .check:hover{
+    cursor: pointer;
+    background-color: rgb(110, 105, 98) ;
+}
+.light{
+    width: 700px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.light p{
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+}
+.light p:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+}
